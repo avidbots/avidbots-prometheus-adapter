@@ -1,0 +1,1 @@
+*/10 * * * * root /usr/bin/python /etc/avidbots-prometheus-adapter/prometheus_adapter.py

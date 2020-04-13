@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chown root:root /etc/cron.d/avidbots-prometheus-adapter
+chown root:root /etc/avidbots-prometheus-adapter/prometheus_adapter.py

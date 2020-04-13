@@ -1,0 +1,16 @@
+nodes:
+  prometheus:
+    address: "http://localhost:9091"
+    metrics:
+      - scrape_duration_seconds
+      - prometheus_http_response_size_bytes_count 
+  node_exporter:
+    address: "http://localhost:9100"
+    metrics:
+      - node_hwmon_temp_celsius
+      - node_cpu_core_throttles_total
+      - node_network_receive_drop_total
+upload_interval: 10
+destination_database: "dynamodb"
+database_config: "/etc/avidbots/dynamodb-config.yaml"
+api_address: "http://localhost:9091"
