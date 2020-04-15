@@ -1,7 +1,7 @@
 Package: avidbots-prometheus-adapter
 Architecture: all
 Maintainer: None
-Depends: prometheus-main, python-boto3, python-yaml
+Depends: prometheus-main, curl, python-yaml
 Priority: optional
 Version: 1.0.0
 Description: Adapter from prometheus to dynamodb
